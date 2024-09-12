@@ -33,14 +33,14 @@
                     <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">{{ $user?->name }}</h1>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                     <div class="typed-text d-none">{{ $user?->job }}</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                    <!-- <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                         <a href="{{ $setting->cv_url }}" class="btn btn-outline-light mr-5">Download CV</a>
                         <button type="button" class="btn-play" data-toggle="modal"
                             data-src="{{$setting->video_url }}" data-target="#videoModal">
                             <span></span>
                         </button>
                         <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -151,7 +151,7 @@
 
 
     <!-- Services Start -->
-    <div class="container-fluid pt-5" id="service">
+    <!-- <div class="container-fluid pt-5" id="service">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
@@ -169,7 +169,7 @@
             @endforeach
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Services End -->
 
 
@@ -226,7 +226,7 @@
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
                             <h4 class="font-weight-light mb-4">{{ $review->description }}</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="{{ asset("storage/$review->image") }}" style="width: 80px; height: 80px;">
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="{{ url("storage/$review->image") }}" style="width: 80px; height: 80px;">
                             <h5 class="font-weight-bold m-0">{{ $review->name }} </h5>
                             <span>{{ $review->job }}</span>
                         </div>

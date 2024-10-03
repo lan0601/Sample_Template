@@ -32,7 +32,7 @@
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Free</span>Folio</h1>
+            <h1 class="m-0 display-5"><span class="text-primary">Port</span>Folio</h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
                 <a href="#testimonial" class="nav-item nav-link">Review</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+            <!-- <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a> -->
         </div>
     </nav>
     <!-- Navbar End -->

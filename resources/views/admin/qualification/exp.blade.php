@@ -15,7 +15,7 @@
                         <table class="table table-bordered">
                           <thead>
                             <tr>
-                              <th> # </th>
+                              <!-- <th> # </th> -->
                               <th> Title </th>
                               <th> Aassociation </th>
                               <th> Description </th>
@@ -26,7 +26,7 @@
                           <tbody>
                             @foreach ($experiences as $experience)
                             <tr>
-                              <td> {{ $experience -> id }} </td>
+                              <!-- <td> {{ $experience -> id }} </td> -->
                               <td>{{ $experience -> title }} </td>
                               <td>
                                 {{ $experience -> association }} 

@@ -15,7 +15,7 @@
                         <table class="table table-bordered">
                           <thead>
                             <tr>
-                              <th> # </th>
+                              <!-- <th> # </th> -->
                               <th> Title </th>
                               <th> Aassociation </th>
                               <th> Type </th>
@@ -26,7 +26,7 @@
                           <tbody>
                             @foreach ($qualifications as $qualification)
                             <tr>
-                              <td> {{ $qualification -> id }} </td>
+                              <!-- <td> {{ $qualification -> id }} </td> -->
                               <td>{{ $qualification -> title }} </td>
                               <td>
                                 {{ $qualification -> association }} 
